@@ -1,0 +1,28 @@
+*{
+  box-sizing:border-box;
+
+}
+.background-section{
+  width: 100%;
+     min-height:80vh;
+     background-image: linear-gradient( rgba(255,255,255,0.9),rgba(104,211,253,0.8)),url(images/tutorial-bgimg.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+
+}
+/*.nav#title{
+  color:black;
+  transition:0.3s;
+}
+
+.nav#title:hover{
+  color:#68D3FD;
+  transition:0.3s;
+}*/
+a.link:hover{
+color:rgba(104,211,253,0.8);
+}
+a.link:hover {
+  color: red;
+}
